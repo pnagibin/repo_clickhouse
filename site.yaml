@@ -1,0 +1,8 @@
+---
+#PLAY для установки сервера Clickhouse, Vector, Lighthouse
+- name: Install Clickhouse
+  hosts: clickhouse
+  roles:
+    - clickhouse_role
+    - vector_role
+    - lighthouse_role
