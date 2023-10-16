@@ -1,3 +1,13 @@
- - src: https://github.com/pnagibin/repo_clickhouse_role
- - src: https://github.com/pnagibin/repo_lighthouse_role
- - src: https://github.com/pnagibin/repo_vector_role
+---
+- name: repo_clickhouse_role
+  src: https://github.com/pnagibin/repo_clickhouse_role
+  scm: git
+  version: 1.0.0
+- name: repo_lighthouse_role
+  src: https://github.com/pnagibin/repo_lighthouse_role
+  scm: git
+  version: 1.0.0
+- name: repo_vector_role
+  src: https://github.com/pnagibin/repo_vector_role
+  scm: git
+  version: 1.0.0
