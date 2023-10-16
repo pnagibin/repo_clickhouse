@@ -3,6 +3,6 @@
 - name: Install Clickhouse
   hosts: clickhouse
   roles:
-    - clickhouse_role
-    - vector_role
-    - lighthouse_role
+    - repo_clickhouse_role
+    - repo_vector_role
+    - repo_lighthouse_role
